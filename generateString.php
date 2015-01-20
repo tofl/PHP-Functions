@@ -23,4 +23,3 @@ function generateString($length = 30) {
 
     return substr($string, 0, $length);
 }
-echo generateString(12);
