@@ -9,3 +9,6 @@ Converts any string to a new one that you can use as an url. Example :
 - *Hello World !* -> *hello-world*
 - *A ‡∂ text made up \*with !! weird (^^) characters* -> *a-text-made-up-with-weird-characters*
 - ...
+
+### truncateString() :
+Truncates a string without cutting any word.
