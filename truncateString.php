@@ -16,5 +16,5 @@ function truncateString($string, $n) {
         }
     }
 
-    return substr($string, 0, $n) . '...';
+    return trim(substr($string, 0, $n)) . '...';
 }
