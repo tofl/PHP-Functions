@@ -12,3 +12,6 @@ Converts any string to a new one that you can use as an url. Example :
 
 ### truncateString() :
 Truncates a string without cutting any word.
+
+### getThumbnail() :
+Returns the link to the thumbnail of any Youtube video
