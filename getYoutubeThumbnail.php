@@ -1,6 +1,6 @@
 <?php
 
-function getThumbnail($video) {
+function getYoutubeThumbnail($video) {
 	
 	if (!isset($video) OR empty($video)) {
 		return false;
