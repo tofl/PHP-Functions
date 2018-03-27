@@ -16,10 +16,10 @@ function generateString($length = 30) {
         $string .= $char[mt_rand(0, count($char) - 1)];
     }
 
-    $nbr_crypts = ceil($length/40);
+    $nbrCrypts = ceil($length/40);
     sha1($string);
 
-    for ($i = 1; $i <= $nbr_crypts - 1; $i++) {
+    for ($i = 1; $i <= $nbrCrypts - 1; $i++) {
         $string .= sha1($string);
     }
 
