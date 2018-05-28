@@ -1,7 +1,7 @@
 <?php
 function convertToUrl($string) {
 
-    if (!isset($string) or empty($tring)) return false;
+    if (!isset($string) or empty($string)) return false;
     $string = mb_strtolower($string);
     $string = str_replace(
         array(
